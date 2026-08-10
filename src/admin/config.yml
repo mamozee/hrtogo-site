@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: KORISNIK/REPO      # <-- promijeni u "tvoj-github-user/ime-repozitorija"
+  branch: main
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+locale: "hr"
+
+collections:
+  - name: "blog"
+    label: "Blog objave"
+    label_singular: "Objava"
+    description: "Objave koje se prikazuju na stranici /blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    sort: "date:desc"
+    fields:
+      - { label: "Naslov", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD.MM.YYYY", time_format: false }
+      - { label: "Kratki opis (za pregled na /blog)", name: "summary", widget: "text", required: false }
+      - { label: "Naslovna slika", name: "cover", widget: "image", required: false }
+      - { label: "Sadržaj", name: "body", widget: "markdown" }

@@ -1,0 +1,15 @@
+---
+layout: page.njk
+---
+<article class="section-pad">
+  <div class="blogwrap">
+    <a class="back" href="/blog/">← Blog</a>
+    <div class="post-date">{{ date | datehr }}</div>
+    <h1 class="post-title">{{ title }}</h1>
+    {% if cover %}<img class="post-hero" src="{{ cover }}" alt="{{ title }}">{% endif %}
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+    <p style="margin-top:44px"><a class="btn btn-primary" href="/#kontakt">Dogovorite razgovor</a></p>
+  </div>
+</article>

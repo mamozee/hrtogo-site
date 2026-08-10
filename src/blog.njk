@@ -1,0 +1,30 @@
+---
+layout: page.njk
+title: Blog
+description: "Uvidi i savjeti o ljudskim resursima, organizaciji i troškovima ljudi."
+permalink: /blog/
+---
+<section class="section-pad">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Blog</span>
+      <h2>Uvidi o ljudima i organizaciji</h2>
+    </div>
+    {% if collections.blog and collections.blog.length %}
+    <div class="blog-index">
+      {%- for post in collections.blog | reverse %}
+      <a class="post-card" href="{{ post.url }}">
+        {% if post.data.cover %}<div class="post-cover" style="background-image:url('{{ post.data.cover }}')"></div>{% endif %}
+        <div class="post-card-body">
+          <div class="post-date">{{ post.date | datehr }}</div>
+          <h3>{{ post.data.title }}</h3>
+          {% if post.data.summary %}<p>{{ post.data.summary }}</p>{% endif %}
+        </div>
+      </a>
+      {%- endfor %}
+    </div>
+    {% else %}
+    <p class="blog-empty">Uskoro prve objave.</p>
+    {% endif %}
+  </div>
+</section>
