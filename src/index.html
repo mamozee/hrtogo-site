@@ -1,123 +1,143 @@
-<!DOCTYPE html>
-<html lang="hr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HRtoGO Consulting · Organizacija i ljudski resursi prilagođeni vašem rastu</title>
-<meta name="description" content="HRtoGO Consulting. Maja Štefančić Hojka. HR konzultacije za firme: stabilni timovi, jasna organizacijska struktura i troškovi ljudi povezani s rezultatima. Dugo Selo, Hrvatska.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/styles.css">
-</head>
-<body>
-<script>document.body.classList.add('js');</script>
+---
+layout: page.njk
+seoTitle: "HRtoGO Consulting | HR procesi i organizacija za poslodavce do 150 zaposlenika"
+description: "Projektni HR consulting za poslodavce do 150 zaposlenika. Organizacija, HR procesi, platne strukture, troškovi zaposlenika i podrška u organizacijskim promjenama."
+---
 
-<header id="hdr">
-  <div class="wrap nav">
-    <a href="/" class="logo">HR<b>to</b>GO<span>Consulting</span></a>
-    <nav class="nav-links" id="navlinks">
-      <a class="link" href="/#usluge">Usluge</a>
-      <a class="link" href="/#pristup">Pristup</a>
-      <a class="link" href="/#o-meni">O meni</a>
-      <a class="link" href="/blog/">Blog</a>
-      <a class="link" href="/#kontakt">Kontakt</a>
-      <a class="btn btn-primary" href="/#kontakt">Dogovorite razgovor</a>
-    </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Izbornik">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-    </button>
-  </div>
-</header>
-
-<main id="top">
-
-<!-- HERO (background video ready) -->
-<section class="hero" id="pocetna">
-  <div class="hero-media">
-    <video class="hero-video" autoplay muted loop playsinline poster="/assets/hero-poster.jpg">
-      <source src="/assets/hero.mp4" type="video/mp4">
-    </video>
-  </div>
-  <div class="hero-scrim"></div>
-  <div class="wrap hero-inner">
-    <span class="eyebrow reveal">HR konzultacije</span>
-    <h1 class="reveal">Posložimo vaš HR da rast ne postane kaos.</h1>
-    <p class="lead reveal">HRtoGO pomaže vlasnicima i menadžerima izgraditi stabilne timove, jasnu organizaciju i troškove ljudi povezane s rezultatima, bez birokracije i s konkretnim planom.</p>
-    <div class="cta-row reveal">
-      <a href="/#kontakt" class="btn btn-primary">Dogovorite besplatan razgovor</a>
-      <a href="/#usluge" class="btn btn-ghost">Pogledajte usluge</a>
+<!-- HERO -->
+<section class="hero2" id="pocetna">
+  <div class="wrap hero2-grid">
+    <div class="hero2-text">
+      <span class="eyebrow reveal">Projektni HR consulting za poslodavce do 150 zaposlenika</span>
+      <h1 class="reveal">Konkretan HR projekt. Proces koji ostaje raditi.</h1>
+      <p class="lead reveal">Kada uloge, procesi i troškovi zaposlenika postanu nejasni, ulazim s konkretnim projektnim zadatkom. Analiziram stanje, oblikujem rješenje, uvodim ga zajedno s vašim timom i predajem vam sustav koji možete samostalno voditi.</p>
+      <div class="cta-row reveal">
+        <a href="/#kontakt" class="btn btn-primary">Dogovorite uvodni razgovor</a>
+        <a href="/#usluge" class="btn btn-ghost">Pogledajte usluge</a>
+      </div>
+      <div class="microtrust reveal">Radite izravno sa mnom — od početne analize do završne predaje projekta.</div>
     </div>
-    <div class="microtrust reveal">Za firme koje rastu brže nego što im HR stiže</div>
+    <div class="hero2-media reveal">
+      <div class="portrait">
+        <img src="/assets/maja.jpg" alt="Maja Štefančić-Hojka, osnivačica HRtoGO Consultinga">
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- PROBLEM -->
-<section class="alt" id="kada">
+<!-- SITUATIONS / VALUE -->
+<section class="alt" id="vrijednost">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Kada je vrijeme za razgovor</span>
-      <h2>Ako vam nešto od ovoga zvuči poznato, vrijeme je za HRtoGO.</h2>
+      <span class="eyebrow">Kada donosim najveću vrijednost</span>
+      <h2>Prepoznajte svoju situaciju — i projekt koji je rješava.</h2>
     </div>
-    <div class="prob-grid">
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg></span><p>Rastete brže nego što HR stiže pratiti.</p></div>
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg></span><p>Uloge i odgovornosti su nejasne, sve se preklapa.</p></div>
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><path d="M16 4l4 4-4 4"/><path d="M20 8H9a5 5 0 0 0 0 10h2"/></svg></span><p>Fluktuacija i pogrešni ljudi na krivim mjestima.</p></div>
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><p>Troškovi ljudi rastu, a ne vidite što donose.</p></div>
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></span><p>Nemate HR odjel, a treba vam struktura.</p></div>
-      <div class="prob reveal"><span class="ic"><svg viewBox="0 0 24 24"><path d="M10.3 3.3a2 2 0 0 1 3.4 0l7 12a2 2 0 0 1-1.7 3H5a2 2 0 0 1-1.7-3z"/><path d="M12 9v4M12 17h.01"/></svg></span><p>HR postoji, ali ne funkcionira kako treba.</p></div>
+    <div class="sit-grid">
+      <a class="sitcard reveal" href="/usluge/#organizacija-i-hr-temelji">
+        <p class="sit">Tvrtka raste i želite da se organizacija, uloge i odgovornosti razvijaju zajedno s poslovanjem.</p>
+        <span class="sit-link">Organizacija i HR temelji<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="sitcard reveal" href="/usluge/#organizacija-i-hr-temelji">
+        <p class="sit">Procesi postoje, ali nisu ujednačeni, stabilni ili dovoljno jasno povezani.</p>
+        <span class="sit-link">Organizacija i HR temelji<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="sitcard reveal" href="/usluge/#hr-sustavi-i-promjene">
+        <p class="sit">Pred vama je reorganizacija, daljnji rast ili uvođenje HR sustava koje želite kvalitetno pripremiti.</p>
+        <span class="sit-link">HR sustavi i organizacijske promjene<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="sitcard reveal" href="/usluge/#hr-pregled">
+        <p class="sit">Tržište se promijenilo, a način rada ostao je isti i niste sigurni što prvo treba mijenjati.</p>
+        <span class="sit-link">HR pregled i plan prioriteta<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="sitcard reveal" href="/usluge/#place-i-troskovi">
+        <p class="sit">Želite jasnije povezati zaposlenike, plaće, radno vrijeme i troškove s poslovnim prioritetima.</p>
+        <span class="sit-link">Plaće, radno vrijeme i troškovi zaposlenika<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
     </div>
+    <p class="sit-foot reveal">Ne trebate nužno veći HR odjel. Trebate jasan projekt, stručnu implementaciju i rješenje koje će funkcionirati i nakon završetka suradnje.</p>
   </div>
 </section>
 
-<!-- SERVICES -->
+<!-- SERVICES OVERVIEW -->
 <section id="usluge">
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="eyebrow">Usluge</span>
-      <h2>Jasni paketi, konkretan cilj i rok.</h2>
-      <p>Od hitne stabilizacije do dugoročnog upravljanja ljudima i budžetom. Svaki paket ima jasan opseg i vremenski okvir.</p>
+      <h2>Projektne HR usluge s jasnim ciljem i rezultatom.</h2>
+      <p>Dobivate jasan odgovor što treba mijenjati prvo, gdje usmjeriti vrijeme i budžet te koje promjene mogu donijeti najveću vrijednost poslovanju. Umjesto nekoliko nepovezanih inicijativa imate prioritete i realan redoslijed aktivnosti.</p>
     </div>
-    <div class="serv-grid">
-      <div class="serv reveal"><div class="num">01</div><h3>HR Stability</h3><span class="meta">2 do 4 tjedna</span><p>Postavljanje temeljne HR strukture kad krećete od nule ili gasite požare: procesi, pravila i red.</p></div>
-      <div class="serv reveal"><div class="num">02</div><h3>HR Structure Reset</h3><span class="meta">4 do 8 tjedana</span><p>Popravak HR sustava koji ne funkcionira: uloge, procesi i pravila posloženi iznova, da rade za vas.</p></div>
-      <div class="serv reveal"><div class="num">03</div><h3>HR Financial Structure</h3><span class="meta">6 do 8 tjedana</span><p>Povezivanje troškova ljudi s poslovnim rezultatima, da svaka kuna uložena u tim ima jasan smisao.</p></div>
-      <div class="serv reveal"><div class="num">04</div><h3>HR Growth</h3><span class="meta">2 do 3 mjeseca</span><p>Podrška tvrtkama u rastu: skaliranje tima i organizacije bez gubitka kontrole i kvalitete.</p></div>
-      <div class="serv full reveal"><div class="num">05</div><h3>People &amp; Financial Governance</h3><span class="meta">3 do 4 mjeseca</span><p>Strateško usklađivanje ljudi i budžeta na razini uprave. Dugoročno upravljanje koje drži tvrtku stabilnom dok raste.</p></div>
+    <div class="serv2-grid">
+      <a class="serv2 reveal" href="/usluge/#hr-pregled">
+        <div class="num">01</div>
+        <h3>HR pregled i plan prioriteta</h3>
+        <p>Za poslodavce koji znaju da nešto u organizaciji ili HR procesima ne funkcionira, no nisu sigurni odakle krenuti.</p>
+        <span class="more">Saznajte više<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="serv2 reveal" href="/usluge/#organizacija-i-hr-temelji">
+        <div class="num">02</div>
+        <h3>Organizacija i HR temelji</h3>
+        <p>Organizacijska struktura, radna mjesta, odgovornosti i HR procesi koji prate stvarne potrebe poslovanja.</p>
+        <span class="more">Saznajte više<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="serv2 reveal" href="/usluge/#zaposljavanje-i-razvoj">
+        <div class="num">03</div>
+        <h3>Zapošljavanje, onboarding i razvoj zaposlenika</h3>
+        <p>Procesi od potrebe za zapošljavanjem do onboardinga, probnog rada, upravljanja učinkom i razvoja zaposlenika.</p>
+        <span class="more">Saznajte više<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="serv2 reveal" href="/usluge/#place-i-troskovi">
+        <div class="num">04</div>
+        <h3>Plaće, radno vrijeme i troškovi zaposlenika</h3>
+        <p>Platne strukture, jasni kriteriji, kontrola radnog vremena i pregled troškova zaposlenika.</p>
+        <span class="more">Saznajte više<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="serv2 reveal" href="/usluge/#hr-sustavi-i-promjene">
+        <div class="num">05</div>
+        <h3>HR sustavi i organizacijske promjene</h3>
+        <p>Priprema procesa, podataka i ljudi za uvođenje HR sustava ili novog organizacijskog modela.</p>
+        <span class="more">Saznajte više<svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+    <div class="serv2-cta reveal">
+      <a href="/usluge/" class="btn btn-primary">Pogledajte sve projektne usluge</a>
     </div>
   </div>
 </section>
 
-<!-- APPROACH -->
-<section class="alt" id="pristup">
+<!-- HOW WE WORK -->
+<section class="alt" id="suradnja">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Kako radim</span>
-      <h2>Bez birokracije. Konkretan plan, jasni koraci, mjerljiv rezultat.</h2>
+      <span class="eyebrow">Kako surađujemo</span>
+      <h2>Jasan početak, dogovoren rezultat i završna predaja projekta.</h2>
     </div>
-    <div class="steps">
-      <div class="step reveal"><div class="n">01</div><h3>Razgovor i analiza</h3><p>Upoznamo se, prođemo trenutno stanje, ljude i ciljeve tvrtke.</p></div>
-      <div class="step reveal"><div class="n">02</div><h3>Plan i struktura</h3><p>Dobivate jasan plan s prioritetima, koracima i rokovima.</p></div>
-      <div class="step reveal"><div class="n">03</div><h3>Implementacija</h3><p>Zajedno uvodimo strukturu, procese i pravila u svakodnevni rad.</p></div>
-      <div class="step reveal"><div class="n">04</div><h3>Praćenje</h3><p>Pratimo rezultate i korigiramo dok sve ne postane stabilno i samostalno.</p></div>
+    <div class="steps steps-6">
+      <div class="step reveal"><div class="n">01</div><h3>Uvodni razgovor</h3><p>Prolazimo poslovnu situaciju, problem koji želite riješiti i očekivani rezultat.</p></div>
+      <div class="step reveal"><div class="n">02</div><h3>Analiza i definiranje opsega</h3><p>Pregledavam postojeće procese, dokumentaciju, podatke i način rada. Nakon analize dogovaramo točan opseg projekta.</p></div>
+      <div class="step reveal"><div class="n">03</div><h3>Plan projekta</h3><p>Dobivate plan aktivnosti, rokove, odgovorne osobe, način suradnje i jasno definirane rezultate.</p></div>
+      <div class="step reveal"><div class="n">04</div><h3>Izrada i implementacija</h3><p>Rješenje izrađujem zajedno s ključnim ljudima u vašoj tvrtki te ga testiramo i uvodimo u svakodnevni rad.</p></div>
+      <div class="step reveal"><div class="n">05</div><h3>Predaja i osamostaljivanje</h3><p>Predajem dogovorene dokumente, procese i alate, educiram odgovorne osobe te definiramo kako će se rješenje dalje koristiti i pratiti.</p></div>
+      <div class="step reveal"><div class="n">06</div><h3>Provjera primjene</h3><p>Najčešće 60 do 90 dana nakon implementacije provjeravamo primjenjuje li se rješenje u praksi te dobivate kratak pregled stanja i preporuku korektivnih aktivnosti.</p></div>
     </div>
+    <p class="sit-foot reveal">Cilj nije samo uvesti novo rješenje, nego osigurati da ono zaživi u praksi i da ga vaš tim može samostalno nastaviti koristiti.</p>
   </div>
 </section>
 
 <!-- ABOUT -->
 <section id="o-meni">
-  <div class="wrap about-grid">
-    <div class="about-photo reveal"><img src="/assets/maja.jpg" alt="Maja Štefančić Hojka"></div>
+  <div class="wrap about-solo">
     <div class="about-text reveal">
       <span class="eyebrow">O meni</span>
-      <h2>Maja Štefančić Hojka</h2>
-      <p>Osnivačica sam HRtoGO Consultinga. Pomažem vlasnicima i menadžerima da ljudski resursi prestanu biti glavobolja i postanu temelj rasta, kroz jasnu strukturu, stabilne timove i troškove koji imaju smisla.</p>
-      <p class="li">Radim pragmatično i bez birokracije: konkretni koraci umjesto teorije, i rješenja skrojena vašoj tvrtki, ne šablona koja odgovara svima.</p>
-      <p class="li">Iza toga stoji i praktično poznavanje HR sustava i alata (SAP SuccessFactors, SAP S/4HANA, organizacijski management), pa rješenja nisu samo teorija nego rade u praksi.</p>
-      <div class="creds">
-        <span class="creds-title">Certifikati i edukacije</span>
-        <ul>
-          <li>Voditeljica ljudskih potencijala (diploma)<span class="m">Učilište za poslovno upravljanje, Zagreb, 2013.</span></li>
+      <h2>Maja Štefančić-Hojka</h2>
+      <p>Osnivačica sam HRtoGO Consultinga i HR stručnjakinja s iskustvom rada uz poslovanje u logistici, proizvodnji, servisnim djelatnostima i IT okruženju.</p>
+      <p class="li">Moje iskustvo obuhvaća reorganizacije, sistematizacije, postavljanje HR procesa, platne strukture, upravljanje troškovima zaposlenika te uvođenje i korištenje HR sustava. Kao SAP S/4HANA HR i SuccessFactors ključna korisnica radila sam u sustavu koji podržava više od 40 povezanih društava.</p>
+      <p class="li">Razumijem kako odluke o organizaciji i zaposlenicima utječu na operativu, troškove i poslovni rezultat. Zato iza projekta ne ostavljam samo preporuku ili prezentaciju, nego dogovorene procese, dokumente, odgovornosti i ljude osposobljene da rješenje nastave koristiti.</p>
+      <p class="li">Radim izravno, praktično i bez nepotrebne birokracije. Rješenje prilagođavam stvarnom načinu rada tvrtke, umjesto da primjenjujem isti model na svaku organizaciju.</p>
+      <a class="linkedin" href="https://www.linkedin.com/in/majastefancichojka/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3zM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5.3c0-3.6-4-3.3-4 0V19h-3V9h3v1.8c1.4-2.6 7-2.8 7 2.5z"/></svg>Povežimo se na LinkedInu</a>
+      <details class="creds-acc reveal">
+        <summary>Certifikati i edukacije<svg class="chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary>
+        <ul class="creds-list">
+          <li>Voditeljica ljudskih potencijala<span class="m">Učilište za poslovno upravljanje, Zagreb, 2013.</span></li>
           <li>SAP SuccessFactors Learning<span class="m">openSAP, 2022.</span></li>
           <li>Employee Business Partner Model, SAP S/4HANA<span class="m">openSAP, 2022.</span></li>
           <li>Organizational Management<span class="m">SAP, 2022.</span></li>
@@ -125,36 +145,66 @@
           <li>Time Evaluation<span class="m">SAP, 2022.</span></li>
           <li>Developing a Learning Mindset<span class="m">LinkedIn Learning / PMI, 2020.</span></li>
         </ul>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="alt" id="iskustvo">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Iskustvo iz prakse</span>
+      <h2>Iskustvo koje povezuje ljude, procese i poslovanje.</h2>
+    </div>
+    <div class="exp-grid">
+      <div class="exp reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
+        <h3>Organizacija i sistematizacija</h3>
+        <p>Oblikovanje organizacijskih struktura, radnih mjesta, odgovornosti i planova prijelaza u novu organizaciju.</p>
       </div>
-      <a class="linkedin" href="https://www.linkedin.com/in/majastefancichojka/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3zM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5.3c0-3.6-4-3.3-4 0V19h-3V9h3v1.8c1.4-2.6 7-2.8 7 2.5z"/></svg>Maja Štefančić Hojka na LinkedInu</a>
+      <div class="exp reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>
+        <h3>Plaće i troškovi rada</h3>
+        <p>Razvoj platnih razreda, pravila dodataka, analiza prekovremenog rada i planiranje troškova zaposlenika.</p>
+      </div>
+      <div class="exp reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+        <h3>HR procesi i odgovornosti</h3>
+        <p>Definiranje procesa od zapošljavanja i onboardinga do razvoja, internih promjena i izlaska zaposlenika.</p>
+      </div>
+      <div class="exp reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></span>
+        <h3>HR sustavi i implementacija</h3>
+        <p>Rad sa SAP S/4HANA, SuccessFactors i drugim HR alatima, uključujući definiranje procesa, testiranje, edukaciju korisnika i prijenos u redovan rad.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- OUTCOMES -->
-<section class="alt">
+<section id="dobivate">
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="eyebrow">Što dobivate</span>
       <h2>Manje kaosa. Više kontrole.</h2>
     </div>
     <div class="outcomes">
-      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div><h3>Jasna organizacija</h3><p>Definirane uloge i odgovornosti, svatko zna svoje.</p></div>
-      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5a3 3 0 0 1 0 6"/><path d="M18.5 20a6 6 0 0 0-3-5.2"/></svg></div><h3>Stabilan tim</h3><p>Manje fluktuacije i pravi ljudi na pravim mjestima.</p></div>
-      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3>Troškovi pod kontrolom</h3><p>Trošak ljudi povezan s rezultatima, ne s osjećajem.</p></div>
-      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a7 7 0 0 0-4 12.7V18h8v-2.3A7 7 0 0 0 12 3z"/><path d="M9 21h6"/></svg></div><h3>Mirnija glava</h3><p>Vrijeme i prostor da vodite posao, ne požare.</p></div>
+      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div><h3>Jasna organizacija</h3><p>Definirane uloge, odgovornosti i linije odlučivanja.</p></div>
+      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div><h3>Ujednačeni procesi</h3><p>Dogovoreni koraci i pravila koja ne ovise o pojedincima.</p></div>
+      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div><h3>Bolje poslovne odluke</h3><p>Pregled troškova i HR pokazatelja potrebnih za upravljanje.</p></div>
+      <div class="out reveal"><div class="ic"><svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h3>Samostalnost nakon projekta</h3><p>Procesi, dokumenti i znanje ostaju u vašoj tvrtki.</p></div>
     </div>
   </div>
 </section>
 
-
-<!-- CONTACT (no form) -->
-<section class="contact" id="kontakt">
+<!-- CONTACT -->
+<section class="contact alt" id="kontakt">
   <div class="wrap">
     <div class="contact-inner reveal">
       <span class="eyebrow">Kontakt</span>
-      <h2>Dogovorimo prvi razgovor.</h2>
-      <p class="lead">Prvi razgovor je besplatan i bez obveze. Javite se i recite mi gdje vas žulja, a ja predlažem konkretan sljedeći korak.</p>
+      <h2>Imate HR ili organizacijski problem koji treba riješiti?</h2>
+      <p class="lead">Na uvodnom razgovoru prolazimo vašu trenutačnu situaciju i rezultat koji želite postići. Nakon razgovora predlažem konkretan sljedeći korak ili projekt koji odgovara potrebama vaše tvrtke.</p>
       <div class="contact-cards">
         <a class="ccard" href="mailto:hrtogoconsulting@gmail.com">
           <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
@@ -166,36 +216,10 @@
         </a>
         <div class="ccard">
           <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-          <span class="lbl">Lokacija</span><span class="val">Hrvatskog preporoda 39, Dugo Selo</span>
+          <span class="lbl">Lokacija</span><span class="val">Dugo Selo, Hrvatska</span>
         </div>
       </div>
-      <a href="mailto:hrtogoconsulting@gmail.com" class="btn btn-primary">Pošaljite email</a>
+      <a href="mailto:hrtogoconsulting@gmail.com" class="btn btn-primary">Dogovorite 30-minutni uvodni razgovor</a>
     </div>
   </div>
 </section>
-
-</main>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <a href="/" class="logo">HR<b>to</b>GO<span>Consulting</span></a>
-        <p>Organizacija i ljudski resursi prilagođeni vašem rastu.</p>
-      </div>
-      <div class="foot-c">
-        <a href="mailto:hrtogoconsulting@gmail.com">hrtogoconsulting@gmail.com</a><br>
-        <a href="tel:+385913004081">+385 91 3004 081</a><br>
-        Hrvatskog preporoda 39, Dugo Selo
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 HRtoGO Consulting · Maja Štefančić Hojka</span>
-      <span>Izrada: <a href="https://leapscout.eu" target="_blank" rel="noopener">leapscout.eu</a></span>
-    </div>
-  </div>
-</footer>
-
-<script src="/assets/main.js"></script>
-</body>
-</html>

@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ title }} · HRtoGO Consulting</title>
-<meta name="description" content="{{ description or 'HRtoGO Consulting — HR konzultacije za firme.' }}">
+<title>{% if seoTitle %}{{ seoTitle }}{% else %}{{ title }} · HRtoGO Consulting{% endif %}</title>
+<meta name="description" content="{{ description or 'HRtoGO Consulting — projektne HR usluge za poslodavce do 150 zaposlenika.' }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if seoTitle %}{{ seoTitle }}{% else %}{{ title }} · HRtoGO Consulting{% endif %}">
+<meta property="og:description" content="{{ description or 'Projektne HR usluge za poslodavce do 150 zaposlenika.' }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
@@ -16,12 +19,12 @@
   <div class="wrap nav">
     <a href="/" class="logo">HR<b>to</b>GO<span>Consulting</span></a>
     <nav class="nav-links" id="navlinks">
-      <a class="link" href="/#usluge">Usluge</a>
-      <a class="link" href="/#pristup">Pristup</a>
+      <a class="link" href="/usluge/">Usluge</a>
+      <a class="link" href="/#suradnja">Kako surađujemo</a>
       <a class="link" href="/#o-meni">O meni</a>
       <a class="link" href="/blog/">Blog</a>
       <a class="link" href="/#kontakt">Kontakt</a>
-      <a class="btn btn-primary" href="/#kontakt">Dogovorite razgovor</a>
+      <a class="btn btn-primary" href="/#kontakt">Dogovorite uvodni razgovor</a>
     </nav>
     <button class="menu-btn" id="menuBtn" aria-label="Izbornik">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -36,16 +39,16 @@
     <div class="foot-grid">
       <div>
         <a href="/" class="logo">HR<b>to</b>GO<span>Consulting</span></a>
-        <p>Organizacija i ljudski resursi prilagođeni vašem rastu.</p>
+        <p>Projektne HR usluge za poslodavce do 150 zaposlenika.</p>
       </div>
       <div class="foot-c">
         <a href="mailto:hrtogoconsulting@gmail.com">hrtogoconsulting@gmail.com</a><br>
         <a href="tel:+385913004081">+385 91 3004 081</a><br>
-        Hrvatskog preporoda 39, Dugo Selo
+        Dugo Selo, Hrvatska
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 HRtoGO Consulting · Maja Štefančić Hojka</span>
+      <span>© 2026 HRtoGO Consulting · Maja Štefančić-Hojka</span>
       <span>Izrada: <a href="https://leapscout.eu" target="_blank" rel="noopener">leapscout.eu</a></span>
     </div>
   </div>

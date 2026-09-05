@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: mamozee/hrtogo-site     # <-- promijeni u "tvoj-github-user/ime-repozitorija"
+  repo: mamozee/hrtogo-site
   branch: main
 
 media_folder: "src/assets/uploads"
