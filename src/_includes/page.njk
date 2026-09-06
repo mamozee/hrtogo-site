@@ -3,15 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% if seoTitle %}{{ seoTitle }}{% else %}{{ title }} · HRtoGO Consulting{% endif %}</title>
-<meta name="description" content="{{ description or 'HRtoGO Consulting — projektne HR usluge za poslodavce do 150 zaposlenika.' }}">
+{% set metaTitle = seoTitle or (title + " · HRtoGO Consulting") %}
+{% set metaDesc = description or summary or "Projektni HR consulting za poslodavce do 150 zaposlenika. Organizacija, HR procesi, platne strukture, troškovi zaposlenika i podrška u organizacijskim promjenama." %}
+<title>{{ metaTitle }}</title>
+<meta name="description" content="{{ metaDesc }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{% if seoTitle %}{{ seoTitle }}{% else %}{{ title }} · HRtoGO Consulting{% endif %}">
-<meta property="og:description" content="{{ description or 'Projektne HR usluge za poslodavce do 150 zaposlenika.' }}">
+<meta property="og:site_name" content="HRtoGO Consulting">
+<meta property="og:locale" content="hr_HR">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:description" content="{{ metaDesc }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/assets/maja.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ metaTitle }}">
+<meta name="twitter:description" content="{{ metaDesc }}">
+<meta name="twitter:image" content="{{ site.url }}/assets/maja.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{% raw %}
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "HRtoGO Consulting",
+  "image": "https://hrtogoconsulting.com/assets/maja.jpg",
+  "url": "https://hrtogoconsulting.com",
+  "email": "hrtogoconsulting@gmail.com",
+  "telephone": "+385913004081",
+  "description": "Projektni HR consulting za poslodavce do 150 zaposlenika: organizacija, HR procesi, platne strukture, troškovi zaposlenika i podrška u organizacijskim promjenama.",
+  "areaServed": { "@type": "Country", "name": "Hrvatska" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Dugo Selo", "addressCountry": "HR" },
+  "founder": { "@type": "Person", "name": "Maja Štefančić-Hojka", "jobTitle": "HR konzultantica", "sameAs": "https://www.linkedin.com/in/majastefancichojka/" },
+  "knowsAbout": ["HR consulting", "organizacija i sistematizacija", "HR procesi", "platne strukture", "troškovi zaposlenika", "onboarding", "HR sustavi"],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HR pregled i plan prioriteta" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Organizacija i HR temelji" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Zapošljavanje, onboarding i razvoj zaposlenika" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plaće, radno vrijeme i troškovi zaposlenika" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HR sustavi i organizacijske promjene" } }
+  ]
+}
+{% endraw %}
+</script>
 </head>
 <body>
 <script>document.body.classList.add('js')</script>
