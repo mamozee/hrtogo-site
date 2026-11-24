@@ -53,26 +53,10 @@ U tvrtkama do 100 zaposlenika najčešći izazovi nisu samo pojedinačni razgovo
 
 Ako prepoznajete neke od ovih situacija u vlastitom timu, vrijedi provjeriti **gdje ste sada**, a ne samo napravljene intervjue.
 
+![Fokus na pozitivna iskustva i povratne informacije zaposlenika u stay intervju.](https://static.wixstatic.com/media/78e8ee_645b1aa9113c4374b04106859e52e3af~mv2.png/v1/fill/w_900,h_550,al_c,lg_1,q_90,enc_avif,quality_auto/78e8ee_645b1aa9113c4374b04106859e52e3af~mv2.png)
 
+Fokus na pozitivna iskustva i povratne informacije zaposlenika u stay intervju.
 
+![Razumijevanje zadovoljstva zaposlenika i adresiranje područja za poboljšanje.](https://static.wixstatic.com/media/78e8ee_24d28e75118d46348529aa2a5a4337c4~mv2.png/v1/fill/w_711,h_492,al_c,lg_1,q_85,enc_avif,quality_auto/78e8ee_24d28e75118d46348529aa2a5a4337c4~mv2.png "Koristite li Stay intervju alat?")
 
-
-
-
-
-
-
-
-![Fokus na pozitivna iskustva i povratne informacije zaposlenika u stay intervju.](https://static.wixstatic.com/media/78e8ee_645b1aa9113c4374b04106859e52e3af~mv2.png/v1/fill/w_900,h_550,al_c,lg_1,q_90,enc_avif,quality_auto/78e8ee_645b1aa9113c4374b04106859e52e3af~mv2.png)Fokus na pozitivna iskustva i povratne informacije zaposlenika u stay intervju.
-
-
-
-
-
-
-
-
-
-
-
-![Razumijevanje zadovoljstva zaposlenika i adresiranje područja za poboljšanje.](https://static.wixstatic.com/media/78e8ee_24d28e75118d46348529aa2a5a4337c4~mv2.png/v1/fill/w_711,h_492,al_c,lg_1,q_85,enc_avif,quality_auto/78e8ee_24d28e75118d46348529aa2a5a4337c4~mv2.png)Razumijevanje zadovoljstva zaposlenika i adresiranje područja za poboljšanje.
+Razumijevanje zadovoljstva zaposlenika i adresiranje područja za poboljšanje.
