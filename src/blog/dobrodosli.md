@@ -1,6 +1,6 @@
 ---
 title: Dobrodošli na blog
-date: 2025-12-01
+date: 2033-09-19
 summary: "Kratki uvod u ono o čemu ću pisati: struktura, stabilni timovi i
   troškovi ljudi koji imaju smisla."
 ---
