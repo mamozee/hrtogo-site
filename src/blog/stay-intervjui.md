@@ -1,6 +1,7 @@
 ---
 title: Stay intervjui
 date: 2025-12-24
+summary: Kako si pomoći i dobiti konstruktivni feedback od zaposlenika?
 ---
 Stay intervjui nisu samo alat za smanjenje fluktuacije zaposlenika – oni su prilika da lideri pokažu zaposlenicima da ih cijene i razumiju njihove potrebe. U nastavku donosimo ključne benefite stay intervjua i kako ih pravilno implementirati.
 
