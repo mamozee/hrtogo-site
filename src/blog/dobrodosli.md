@@ -1,7 +1,8 @@
 ---
-title: "Dobrodošli na blog"
-date: 2026-02-01
-summary: "Kratki uvod u ono o čemu ću pisati: struktura, stabilni timovi i troškovi ljudi koji imaju smisla."
+title: Dobrodošli na blog
+date: 2025-12-01
+summary: "Kratki uvod u ono o čemu ću pisati: struktura, stabilni timovi i
+  troškovi ljudi koji imaju smisla."
 ---
 Ovdje ću redovito dijeliti praktične uvide iz svijeta ljudskih resursa — bez birokracije i teorije, s konkretnim koracima koje možete primijeniti u svojoj tvrtki.
 
